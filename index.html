@@ -7,5 +7,12 @@
 </head>
 <body>
   <h2>这是缤纷生活 -- <em>binfun.life</em></h2>
+  <p id="domain"></p>
+  <script>
+    const el = document.getElementById('domain')
+    if (el) {
+      el.innerHTML = location.host
+    }
+  </script>
 </body>
 </html>
